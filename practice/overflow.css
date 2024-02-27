@@ -1,0 +1,22 @@
+*{
+    padding:0;
+}
+.container{
+    width:200px;
+    height:200px;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.box{
+    border:1px solid red;
+    width: auto;
+    
+    
+}
+.head{
+    margin:50% 50%;
+
+}

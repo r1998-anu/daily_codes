@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    background-color: rgb(181, 238, 135);
+}
+p{
+    font-size:44px;
+    padding: 12px 15px;
+    color:white ;
+}
+.img{
+    width:50%;
+    height:50%;
+}
+ul{
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+}
+li{
+    list-style: none;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 76px;
+    
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color:rgb(228, 71, 71);
+    
+}
+a:hover{
+    color:white;
+}
+.btn-side{
+    padding: 12px;
+    margin: 20px;
+    
+}
+#btn-l{
+    border-radius: 5px;
+    padding: 4px 5px;
+    font-size: large;
+    margin-right: 20px;
+    border-color: aliceblue;
+    
+}
+#btn-l:hover{
+    background-color: chartreuse;
+}
+#btn-s{
+    border-radius: 5px;
+    padding: 4px 5px;
+    font-size: large; 
+    border-color: aliceblue;
+}
+#btn-s:hover{
+    background-color: chartreuse;
+}
+.mid{
+    border:1px solid red;
+    justify-content: center;
+    text-align: center;
+    padding: 4%;
+    font-size: 2em;
+    font-weight: bold; 
+}
+span{
+    font-size: 2em;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 36px; 
+}
+.box1{
+    border: 5px solid red;
+    border-radius: 7px;
+    width: 300px;
+    height: 400px;
+    margin-right: 12px;
+    
+}
+.box2{
+   
+    width: 300px;
+    height: 400px;
+    border: 5px solid red;
+    border-radius: 7px;
+    margin-right: 12px;
+}
+.box3{
+    border: 5px solid red;
+    border-radius: 7px;
+    width: 300px;
+    height: 400px;
+    margin-right: 12px;
+}
+.SideKick1   {
+    border: 6px solid rgb(77, 240, 77);
+    border-radius: 5px;
+    background-color: rgb(0, 225, 255) ;
+    width: 40%;
+    height: 30%;
+    margin-left: 89px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+#a{
+    font-size: 20px;
+    margin-top: 25px;
+    width: 106px;
+    height: 23px;
+    text-align: center;
+}
+.hero{
+    border: 5px solid red;
+    border-radius: 5px;
+    background-color:orange;
+    text-align: center;
+    width: 40%;
+    height: 30%;
+    margin-left: 89px;
+    margin-top: 5px;  
+}
+#b{
+    font-size: 20px;
+    margin-top: 25px;
+    width: 106px;
+    height: 23px;
+    text-align: center;
+}
+.sidekick3{
+    border: 6px solid rgb(77, 240, 77);
+    border-radius: 5px;
+    background-color: rgb(0, 225, 255) ;
+    width: 40%;
+    height: 30%;
+    margin-left: 89px;
+    margin-top: 5px;
+    
+}
+#c{
+    font-size: 20px;
+    margin-top: 25px;
+    width: 106px;
+    height: 23px;
+    text-align: center;
+}
+

@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.cotaner{
+    display:grid;
+    grid-template-columns: 150px 150px 150px; 
+    grid-template-areas: "header header header"
+                          "sidebar c1 c2"
+                          "sidebar c3 c4"
+                          "footer footer footer";
+    grid-auto-rows:150px;
+}
+.box1{
+    border: 1px solid red;
+    background-color: blue;
+    grid-area: header;
+
+}
+.box2{
+    border: 1px solid red;
+    background-color: blue;
+    grid-area: sidebar;
+}
+.box3{
+    border: 1px solid red;
+    background-color: blue;
+}
+.box4{
+    border: 1px solid red;
+    background-color: blue;
+}
+.box5{
+    border: 1px solid red;
+    background-color: rgb(159, 128, 42);
+}
+.box6{
+    border: 1px solid red;
+    background-color: rgb(43, 172, 43);
+}
+.box7{
+    border: 1px solid red;
+    background-color: rgb(128, 7, 15);
+    grid-area: footer;
+}

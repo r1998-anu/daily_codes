@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table {
+            font-family: Arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 15px;
+        }
+
+        th {
+            background-color: #f2e6e6;
+            text-align: center;
+        }
+        th.metric-A{
+            background-color: rgb(130, 130, 214);
+        }
+        th.metric-B{
+            background-color: rgb(120, 120, 156);
+        }
+       tfoot{
+        background-color: blue;
+       }
+       
+       
+       
+
+        
+    </style>
+</head>
+
+<body>
+
+    <h2>Table-2</h2>
+    <table>
+        <tr>
+            <th  colspan="2">Metrics</th>
+            <th  colspan="2">Submetric</th>
+            <th  colspan="2">Actual</th>
+        </tr>
+        <tr>
+            <th class="metric-A"colspan="4">Metric A</th>
+            <th>1</th>
+
+        </tr>
+        <tbody>
+            <tr>
+                <th rowspan="3" colspan="2">Metric B</th>
+                <th>Submetric B1</th>
+                <th colspan="2">2</th>
+            <tr>
+                <th>Submetrics B2</th>
+                <th colspan="2">3</th>
+            </tr>
+            <tr>
+                <th>Submetric B3</th>
+                <th colspan="2">4</th>
+            </tr>
+            <tr >
+                <th  class="metric-B"colspan="4">Metric C</th>
+                <th>5</th>
+            <tr>
+                <th rowspan="3" colspan="2">Metric B</th>
+                <th>Submetric D1</th>
+                <th colspan="2">6</th>
+            <tr>
+                <th>Submetrics D2</th>
+                <th colspan="2">7</th>
+            </tr>
+            </tr>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="2">Metric E</th>
+                <th colspan="2">Submetric E</th>
+                <th colspan="2">8</th>
+            </tr>
+        </tfoot>
+
+    </table>
+
+</body>
+
+</html>

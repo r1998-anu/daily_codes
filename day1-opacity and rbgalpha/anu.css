@@ -1,0 +1,5 @@
+/* Select and style empty divs inside a specific container */
+div:empty {
+    border: 2px solid red;
+  }
+  

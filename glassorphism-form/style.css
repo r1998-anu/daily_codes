@@ -1,0 +1,108 @@
+*{
+    margin:0px;
+    padding:0;
+    box-sizing:content-box;
+}
+body{
+    background:url(./bubble.jpg) ;
+    border-radius: 15px;
+    border: 1px solid rgba(228, 226, 262, 0.18);
+
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:15rem;
+    width: 100%;
+}
+.main{
+    margin-top:11rem;
+    border-radius: 23px;
+    position:absolute;
+    padding:52px;
+    box-shadow: 3px 8px 33px 33px rgba(228,226,262);
+}
+h1{
+    padding:3px;
+}
+#desh{
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 6px;
+    font-size: large;
+}
+.fill{
+    display:flex;
+    justify-content: space-between;
+    padding:10px 0px;
+}
+.country{
+    padding: 10px;
+}
+.name{
+    padding: 10px;
+    margin: 7px;
+    width: 333px;
+    border: 1px solid pink;
+    border-radius: 12px;
+}
+::placeholder{
+    font-size: larger;
+}
+h2{
+    margin-right: 60px;
+    font-size: x-large;
+    margin-top: -2.6rem;
+}
+ol{
+    margin-left: 15rem;
+    margin-top: -3rem;
+    padding: 7px 10px;
+}
+ol span{
+    font-size: large;
+}
+label{
+    margin-left: 3px;
+}
+.hobbies{
+    font-size: x-large;
+    font-weight: bolder;
+    margin-top: 1rem;
+}
+.play{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.add{
+    margin-top: .8rem;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(202, 129, 213);
+    cursor: pointer;
+}
+.add:hover{
+    background-color: pink;
+}
+#hob{
+    border-radius: 12px;
+
+}
+
+.submit{
+    background-color: rgb(228, 116, 230);
+    border:1px solid black;
+    border-radius: 7px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 400px;
+    font-size: 15px;
+
+}
+.submit:hover{
+    background-color: pink;
+}

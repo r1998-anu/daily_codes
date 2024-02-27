@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+}
+.box1{
+    border:2px solid red;
+    background-color: rgb(30, 160, 145); 
+    grid-column: 4;
+}
+.box2{
+    border:2px solid red;
+    background-color: rgb(18, 185, 32);
+}
+.box3{
+    border:2px solid red;
+    background-color: blue;
+}
+.box4{
+    border:2px solid red;
+    background-color: rgb(144, 6, 98);
+}
+.box5{
+    border:2px solid red;
+    background-color: rgb(187, 80, 98);
+}
+.box6{
+    border:2px solid red;
+    background-color: rgb(206, 147, 38);
+}
+.box7{
+    border:2px solid red;
+    background-color: rgb(138, 202, 203);
+}
